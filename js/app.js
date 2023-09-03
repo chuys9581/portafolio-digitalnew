@@ -207,3 +207,11 @@ downloadButton.addEventListener("click", function() {
     // Dispara el evento de clic en el enlace
     link.click();
 });
+
+// JavaScript para controlar la apertura y cierre del menú hamburguesa
+const menuIcon = document.getElementById('menu-icon');
+const navListas = document.querySelector('.nav-listas ul');
+
+menuIcon.addEventListener('click', () => {
+navListas.classList.toggle('active');
+});
