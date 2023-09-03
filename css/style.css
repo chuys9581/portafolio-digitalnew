@@ -992,3 +992,701 @@ footer{
     border-radius: 10px;
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .logo{
+    display: none;
+    }
+    .menu-icon {
+    display: block;
+    }
+    .nav-listas{
+    padding-left: .5em;
+    margin-top: -3px;
+    }
+    .nav-listas ul {
+    display: none;
+    flex-direction: column;
+    background-color:#061128;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    }
+    
+    .nav-listas ul.active {
+    display: flex;
+    padding: 0;
+    margin-left: -2rem;
+    opacity: .9;
+    }
+    
+    .nav-listas ul a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    .contact{
+    background: #e358cd;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin-top: .3em;
+    letter-spacing: .13em;
+    text-align: center;
+    border-radius: 0;
+    }
+    li{
+    padding-top: 1.5em;
+    padding-left: 4em;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #F3F4F6;
+    opacity: 1;
+    }
+    
+    ul{
+    margin-top: 3.9rem;
+    }
+    
+    nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color:#061128;
+    }
+    
+    .casa:hover,
+    .sobre:hover,
+    .trab:hover,
+    .pag:hover,
+    .blando:hover,
+    .hard:hover {
+    opacity: 1;
+    color: #e358cd;
+    }
+    
+    h1{
+    color: white;
+    font-family: 'Exo', sans-serif;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 1.5em;
+    margin-left: 2em;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/pp_about_hero.jpg);
+    color: #F3F4F6;
+    padding-bottom: 2em;
+    }
+    
+    main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    }
+    
+    .logo-cel{
+    width: 20em;
+    height: 15em;
+    padding-top: 5em;
+    padding-right: 0em;
+    margin: auto;
+    }
+    .btn{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: center;
+    }
+    
+    .btn-popup{
+    border: 1px solid #e358cd;
+    background: #e358cd;
+    color: white;
+    border-radius: 2em;
+    width: 12em;
+    height: 4.5em;
+    }
+    .btn-popup:hover{
+    cursor: pointer;
+    background: transparent;
+    border: solid #e358cd;
+    }
+    
+    .btn-contact{
+    margin-left:5em ;
+    background-color: transparent;
+    border: solid #e358cd;
+    color: white;
+    border-radius: 2em;
+    width: 12em;
+    height: 4.5em;
+    }
+    
+    .parrafo-1{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Exo', sans-serif;
+    padding-left: 0em;
+    }
+    
+    .leyend{
+    display: flex;
+    color: white;
+    padding-top: .2em;
+    padding-bottom: .4em;
+    font-size: .9em;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Exo', sans-serif;
+    letter-spacing: .15em;
+    }
+    
+    .about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    background-color:#061128 ;
+    }
+    .foto{
+    margin-top: 3.5em;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10rem;
+    margin: auto;
+    }
+    .container-text{
+    width: 100%;
+    padding-left: 0rem;
+    color: white;
+    opacity: .8;
+    font-family: 'Exo', sans-serif;
+    text-align: justify;
+    }
+    
+    .experience{
+    display: flex;
+    margin-top: -5rem;
+    flex-direction: column;
+    background: #061128;
+    align-items: center;
+    margin-bottom: 2rem;
+    }
+    .boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top:8rem ;
+    width: 20rem;
+    height: 28rem;
+    background: #FBFBFB ;
+    color: black;
+    border-radius: 1rem 1rem 0 0;
+    }
+    .container-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    font-family: 'Pangolin', cursive;
+    border-radius: 1rem 0 0 0;
+    margin-bottom: 1rem;
+    }
+    .container-uno:hover{
+    cursor: pointer;
+    background: #BECFF3;
+    border-radius: 1rem 0 0 0;
+    }
+    .elf{
+    margin-top: .4rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    }
+    .container-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    font-family: 'Pangolin', cursive;
+    margin-bottom: 1rem;
+    }
+    .container-dos:hover{
+    cursor: pointer;
+    background: #BECFF3;
+    }
+    .taggie{
+    width: 5rem;
+    border-radius: 5rem;
+    height: 5rem;
+    }
+    .container-tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    font-family: 'Pangolin', cursive;
+    margin-bottom: 1rem;
+    }
+    .container-tres:hover{
+    cursor: pointer;
+    background: #BECFF3;
+    }
+    .linkrear{
+    margin-top: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    }
+    .link{
+    padding-top: .2rem;
+    }
+    .container-cuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    font-family: 'Pangolin', cursive;
+    border-radius: 0 1rem 0 0;
+    margin-bottom: 1rem;
+    }
+    .container-cuatro:hover{
+    cursor: pointer;
+    background: #BECFF3;
+    border-radius: 0 1rem 0 0;
+    }
+    .amx{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    }
+    /* Style para contendeores internos */
+    .front{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    background: #1C2E52 ;
+    font-family: 'Pangolin', cursive;
+    color: white;
+    }
+    .t1{
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    }
+    .t2{
+    padding-left: 1rem;
+    margin-top: -2rem;
+    font-size: 1.1rem;
+    }
+    .t22{
+    padding-left: 1rem;
+    margin-top: -2.6rem;
+    font-size: 1.2rem;
+    }
+    .p-container{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-top: -.8rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 100%;
+    }
+    .par-tex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    }
+    .img1{
+    width: 19rem;
+    height: 12rem;
+    margin: auto;
+    transition: 2s;
+    margin-top: -0.02rem;
+    }
+    .img1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    }
+    .full{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 43rem;
+    background: #1C2E52 ;
+    font-family: 'Pangolin', cursive;
+    color: white;
+    }
+    .img2{
+    width: 19rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 1rem;
+    transition: 2s;
+    }
+    .img2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    }
+    .back{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    background: #1C2E52 ;
+    font-family: 'Pangolin', cursive;
+    color: white;
+    }
+    .img3{
+    width: 18rem;
+    height: 11rem;
+    margin: auto;
+    margin-top: 1rem;
+    transition: 2s;
+    }
+    .img3:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    }
+    .wordpress{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    background: #1C2E52 ;
+    font-family: 'Pangolin', cursive;
+    color: white;
+    }
+    .img4{
+    width: 19rem;
+    height: 12rem;
+    margin: auto;
+    margin-top: 1rem;
+    transition: 2s;
+    }
+    .img4:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    }
+    
+    .ima-work{
+    display: flex;
+    width: 30rem;
+    height: 14rem;
+    border-radius: 1.8rem;
+    margin-right: 4rem;
+    }
+    
+    .btn-rosa{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    background-color: #e358cd;
+    width: 15rem;
+    height: 2.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 1.5rem;
+    opacity: .8;
+    }
+    
+    .soft-der{
+    padding-left: 2rem;
+    text-align: center;
+    }
+    
+    .equipo{
+    width: 8rem;
+    height: 6rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    .equipo{
+    width: 9rem;
+    height: 6rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    .equipo:hover{
+    cursor: pointer;
+    }
+    .change-soft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+    color: #061128;
+    font-weight: 800;
+    font-family: 'Lexend', sans-serif;
+    }
+    .soft-izq{
+    text-align: center;
+    }
+    .soft-der{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    text-align: center;
+    }
+    .soft-letters{
+    text-transform: uppercase;
+    }
+    /* Estilos de las imagenes de hard skills */
+    .change-hard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .hard-images{
+    width: 3rem;
+    border-radius: 2.8rem;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    .hard-images2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4.5rem;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    .parte-a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+    }
+    .parte-b{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+    .parte-c{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    }
+    .a-uno{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: .8rem;
+    padding-right: .4rem;
+    }
+    .idiomas{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: 'Lexend', sans-serif;
+    }
+    .spanish{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    }
+    .spanish-letter{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    }
+    .english{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    }
+    
+    footer{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    background-position: 50%;
+    background-image: url(/images/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    }
+    .contacprin{
+    display: flex;
+    letter-spacing: .3rem;
+    padding-top: -1rem;
+    font-size: 2rem;
+    margin: auto;
+    }
+    
+    .iconosFot{
+    flex-direction: column;
+    display: flex;
+    color: white;
+    margin: auto;
+    }
+    .email{
+    display: flex;
+    flex-direction: row;
+    }
+    .telefono{
+    display: flex;
+    flex-direction: row;
+    }
+    .material-symbols-outlined{
+    display: flex;
+    padding-right: 1rem;
+    font-size: 2rem;
+    margin: auto;
+    margin-right: 0.2rem;
+    margin-left: 1rem;
+    }
+    .fotle{
+    font-size: 1rem;
+    }
+    .copi{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom:.5rem;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: .8rem;
+    }
+    .sociales{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    }
+    .social{
+    width: 2rem;
+    height: 2rem;
+    margin-left: .6rem;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    background-color: transparent;
+    }
+    
+    .contac1{
+    color: white;
+    }
+    .todoFoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -1rem;
+    }
+    .letraFoot{
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    padding-right: 5rem;
+    margin-left: 4rem;
+    }
+    .boton{
+    background-color: transparent;
+    margin-top: -3rem;
+    border: none;
+    color: white;
+    border: solid white;
+    justify-content: center;
+    margin-left: 7rem;
+    }
+    .btn-interno{
+    padding: .3 rem;
+    font-size: 1rem;
+    }
+    
+    .sociales{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin: auto;
+    }
+    
+    /* Estilos para el recuadro */
+    .recuadro {
+    position: fixed;
+    bottom: 2rem;
+    right: 0;
+    width: 0px; /* Ajusta el ancho según tus necesidades */
+    background-color: #2BB741;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Sombra bajo el recuadro */
+    z-index: 9999; /* Valor alto de z-index para que esté por encima de todo el contenido */
+    border-radius: 10px 10px 0px 0px;
+    }
+    .second-section{
+    display: flex;
+    float: right;
+    width: 3rem;
+    height: 2.5rem;
+    background-color: white;
+    justify-content: center;
+    border-radius: 0px 0px 0px 10px;
+    margin-left: 2.9rem;
+    margin-top: 0.4rem;
+    }
+    .input{
+    display: flex;
+    width: 8.5rem;
+    height: 1.5rem;
+    border: 0;
+    margin-right: .2rem;
+    outline: none;
+    }
+    ::placeholder {
+    color:#DBDEDF;
+    }
+    
+    .all{
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
+    .box-single{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 1.5rem;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #2BB741;
+    color: white;
+    border-radius: 10px 0px 0px 0px;
+    }
+    
+    .logo-whatsapp{
+    width: 2rem;
+    margin-top: -1rem;
+    }
+    
+    .letras2{
+    display: none;
+    }
+    
+    .one-person{
+    display: none;
+    }
+    .flecha{
+    width:1rem;
+    height: 1rem;
+    margin-top: .4rem;
+    cursor: pointer;
+    margin-left: -3.9rem;
+    }
+}
